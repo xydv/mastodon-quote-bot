@@ -2,9 +2,8 @@ const Mastodon = require("mastodon-api");
 const fetch = require("cross-fetch");
 const ENV = require("dotenv");
 ENV.config();
-// const keepAlive = require('./server.js')
 // Quote Bot Starts
-console.log("Quote Bot Starting");
+console.log("Quote Bot Starting!!.");
 // Mastodon Client
 const M = new Mastodon({
   client_key: process.env.CLIENT_KEY,
